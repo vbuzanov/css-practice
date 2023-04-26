@@ -1,4 +1,4 @@
-:root {
+/* :root {
   background: purple;
 }
 
@@ -58,4 +58,131 @@ h1 + .test {
 h1 ~ p,
 h1 ~ * > p {
   background: black;
+} */
+
+.card-dark {
+  background: #ede7e7;
+}
+
+/* .item {
+  color: green;
+}
+
+.item:first-child {
+  color: blue;
+}
+
+.item:last-child {
+  color: blue;
+}
+
+.item:only-child {
+  color: purple;
+}
+
+.item:first-of-type {
+  color: red;
+}
+
+.item:last-of-type {
+  color: red;
+}
+
+.item:only-of-type {
+  color: orange;
+}
+
+div:nth-child(2) {
+  color: red;
+}
+
+.item:nth-child(odd) {
+  color: green;
+}
+
+.item:nth-child(3n + 1) {
+  color: rgb(0, 255, 174);
+}
+
+.item:nth-last-child(2) {
+  color: red;
+}
+
+.item:nth-of-type(2) {
+  color: blue;
+}
+
+.item:nth-last-of-type(2) {
+  color: blue;
+}
+
+.item:not(div) {
+  color: blueviolet;
+}
+div:empty {
+  height: 10px;
+  background: red;
+} */
+
+.input-dark {
+  background: #aeacac;
+}
+
+.input-dark[required] {
+  background: #c82121;
+}
+
+.input-dark[type='number'] {
+  background: #aae9de;
+}
+
+/* .small-img[alt~='small'] {
+  height: 500px;
+} */
+
+/* .card[class~='img'] {
+  height: 500px;
+} */
+
+.small-img[alt~='small'] {
+  height: 500px;
+}
+
+a[rel~='external'] {
+  color: green;
+}
+
+button[class|='btn'] {
+  background: rgb(153, 149, 149);
+}
+
+a[class^='btn'] {
+  background: red;
+}
+
+a[class*='btn'] {
+  background: red;
+}
+
+a[class$='big'] {
+  background: blue;
+}
+
+.btn::first-letter {
+  color: red;
+}
+
+.big-text::first-line {
+  color: red;
+}
+
+.input-dark::placeholder {
+  background: green;
+}
+
+.big-text::before,
+.big-text::after {
+  content: '$$$';
+  color: green;
+  background: red;
 }
