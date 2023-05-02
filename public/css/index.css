@@ -1,278 +1,41 @@
-/* :root {
-  background: purple;
+.card {
 }
 
-html {
-  max-width: 720px;
-
-  background: blue;
-}
-
-body {
-  background: #fff;
-}
-
-* {
-  color: red;
-}
-
-h1 {
+.card > p {
   color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
 }
 
-.box {
-  background: #cfcfcf;
-}
-
-#user {
-  color: blue;
-}
-
-h1,
-h2#user,
-button {
+p:focus,
+p:active,
+p:hover {
   color: green;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
+
+  direction: rtl;
 }
 
-button.button {
-  background: red;
+#test {
+  color: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-text-stroke: unset;
+  /* writing-mode: vertical-lr; */
+  text-align: justify;
+  letter-spacing: 0.1em;
 }
 
-.box > p {
-  color: paleturquoise;
+pre {
+  tab-size: 10px;
 }
 
-footer > .user {
-  color: palevioletred;
+span {
+  text-decoration: underline dotted red;
 }
 
-footer em.child,
-footer div.child {
-  color: rgb(0, 247, 111);
-}
-
-h1 + .test {
-  background: black;
-}
-
-h1 ~ p,
-h1 ~ * > p {
-  background: black;
-} */
-
-.card-dark {
-  background: #ede7e7;
-}
-
-/* .item {
-  color: green;
-}
-
-.item:first-child {
-  color: blue;
-}
-
-.item:last-child {
-  color: blue;
-}
-
-.item:only-child {
-  color: purple;
-}
-
-.item:first-of-type {
-  color: red;
-}
-
-.item:last-of-type {
-  color: red;
-}
-
-.item:only-of-type {
-  color: orange;
-}
-
-div:nth-child(2) {
-  color: red;
-}
-
-.item:nth-child(odd) {
-  color: green;
-}
-
-.item:nth-child(3n + 1) {
-  color: rgb(0, 255, 174);
-}
-
-.item:nth-last-child(2) {
-  color: red;
-}
-
-.item:nth-of-type(2) {
-  color: blue;
-}
-
-.item:nth-last-of-type(2) {
-  color: blue;
-}
-
-.item:not(div) {
-  color: blueviolet;
-}
-div:empty {
-  height: 10px;
-  background: red;
-} */
-
-.input-dark {
-  background: #aeacac;
-}
-
-.input-dark[required] {
-  background: #c82121;
-}
-
-.input-dark[type='number'] {
-  background: #aae9de;
-}
-
-/* .small-img[alt~='small'] {
-  height: 500px;
-} */
-
-/* .card[class~='img'] {
-  height: 500px;
-} */
-
-.small-img[alt~='small'] {
-  height: 500px;
-}
-
-a[rel~='external'] {
-  color: green;
-}
-
-button[class|='btn'] {
-  background: rgb(153, 149, 149);
-}
-
-a[class^='btn'] {
-  background: red;
-}
-
-a[class*='btn'] {
-  background: red;
-}
-
-a[class$='big'] {
-  background: blue;
-}
-
-.btn::first-letter {
-  color: red;
-}
-
-.big-text::first-line {
-  color: red;
-}
-
-.input-dark::placeholder {
-  background: green;
-}
-
-.big-text::before,
-.big-text::after {
-  content: '$$$';
-  color: green;
-  background: red;
-}
-
-#test:target {
-  color: red;
-}
-
-.link:link {
-  color: red;
-}
-
-.link:hover {
-  color: green;
-}
-
-.link:active {
-  color: purple;
-}
-.card:active {
-  background-color: purple;
-}
-
-input {
-  background-color: gray;
-}
-
-input:focus {
-  background-color: red;
-}
-
-.card:focus-within {
-  background: red;
-}
-
-.card:lang(en) > span::after {
-  content: ' (en)';
-}
-
-button {
-  background-color: greenyellow;
-}
-
-button:enabled {
-  background-color: #16c100;
-}
-
-button:disabled {
-  background-color: aqua;
-}
-
-.inp:read-write {
-  background-color: blue;
-}
-
-.inp:read-only {
-  background-color: red;
-}
-
-input[type='checkbox']:checked ~ span {
-  background: red;
-}
-
-.valid:valid {
-  background: yellow;
-}
-
-.valid:invalid {
-  background: goldenrod;
-}
-
-.valid:optional {
-  background: green;
-}
-
-.number:focus {
-  background: gray;
-}
-
-.number:out-of-range {
-  background: red;
-}
-.number:in-range {
-  background: green;
-}
-
-.number:invalid {
-  background: red;
-}
-
-input:placeholder-shown ~ span {
-  background: pink;
+span:hover {
+  text-decoration-color: blue;
+  text-decoration-line: line-through;
+  text-decoration-style: solid;
 }
