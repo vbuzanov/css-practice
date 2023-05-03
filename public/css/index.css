@@ -39,3 +39,20 @@ span:hover {
   text-decoration-line: line-through;
   text-decoration-style: solid;
 }
+
+* {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  font-display: swap;
+}
+
+span {
+  font-size: larger;
+  font-weight: lighter;
+  /* font-style: italic; */
+}
+
+/* .span-b {
+  font-weight: lighter;
+} */
