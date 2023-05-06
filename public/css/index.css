@@ -56,3 +56,18 @@ span {
 /* .span-b {
   font-weight: lighter;
 } */
+
+.span-b {
+  display: none;
+}
+
+.block {
+  display: block;
+  background: rgb(208, 208, 208);
+
+  margin: auto;
+
+  height: min-content;
+
+  min-height: max-content;
+}
